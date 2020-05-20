@@ -22,9 +22,9 @@ function steps(n) {
         let levels = '';
         for (let col = 0; col < n; col++) {
             if (col <= row) {
-                levels = +'#';
+                levels += '#';
             } else {
-                levels = +' ';
+                levels += ' ';
             }
         }
         console.log(levels);
